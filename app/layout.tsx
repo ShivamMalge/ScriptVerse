@@ -4,6 +4,7 @@ import { GeistSans, GeistMono } from "geist/font"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -32,6 +33,8 @@ export default function RootLayout({
           <main className="flex-grow">{children}</main>
           <Footer />
         </ThemeProvider>
+        <Analytics/>
+        
       </body>
     </html>
   )
