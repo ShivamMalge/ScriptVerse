@@ -118,7 +118,7 @@ export default function PortfolioPage() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1  max-w-6xl mx-auto md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
+        <div className="grid grid-cols-1 max-w-6xl mx-auto md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
           <AnimatePresence mode="wait">
             {filteredProjects.map((project) => (
               <motion.div
@@ -223,7 +223,7 @@ export default function PortfolioPage() {
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary blur-lg opacity-75"></div>
                 <div className="relative bg-black overflow-hidden">
-                  <img src="/placeholder.svg?height=600&width=800" alt="Featured project" className="w-full h-auto" />
+                  <img src="/Neuro.png" alt="Featured project" className="w-full h-auto" />
                 </div>
               </div>
             </motion.div>
@@ -238,13 +238,13 @@ export default function PortfolioPage() {
               <div className="inline-block px-3 py-1 bg-gradient-to-r from-primary to-secondary text-black text-xs sm:text-sm font-bold mb-2 font-mono">
                 CASE STUDY
               </div>
-              <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tighter">Quantum Neural Interface</h3>
+              <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tighter">NeuroForge</h3>
               <p className="text-gray-300 font-mono text-sm">
-                A groundbreaking project that merges quantum computing principles with neural interface design, creating
-                an immersive experience that responds to user thought patterns in real-time.
+                A groundbreaking project that Great Web Designing with neural Networks, creating
+                an immersive experience where users can create custom CNN models and generate code in Real-Time.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Quantum Computing", "Neural Interface", "AI", "WebXR"].map((tag, index) => (
+                {["Neural Networks", "Web", "AI", "TensorFlow.Js"].map((tag, index) => (
                   <span
                     key={index}
                     className="text-xs bg-black/50 border border-primary/30 px-3 py-1 text-gray-200 font-mono"
@@ -257,15 +257,13 @@ export default function PortfolioPage() {
                 <div className="bg-black/50 border border-white/10 p-3 sm:p-4">
                   <h4 className="text-base sm:text-lg font-bold text-white mb-1 sm:mb-2">The Challenge</h4>
                   <p className="text-gray-300 font-mono text-xs sm:text-sm">
-                    Creating a system that could interpret neural signals and translate them into quantum computing
-                    operations with minimal latency.
+                    Creating a system that could interpret Model layers and generate code in real time.
                   </p>
                 </div>
                 <div className="bg-black/50 border border-white/10 p-3 sm:p-4">
                   <h4 className="text-base sm:text-lg font-bold text-white mb-1 sm:mb-2">Our Solution</h4>
                   <p className="text-gray-300 font-mono text-xs sm:text-sm">
-                    We developed a proprietary algorithm that processes neural signals through a quantum circuit,
-                    achieving response times under 10ms.
+                    We used TensorFlow JS to load MNIST and XOR datasets on which model are trained and evaluated.
                   </p>
                 </div>
               </div>
