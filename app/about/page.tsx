@@ -49,7 +49,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary blur-lg opacity-75"></div>
                 <div className="relative bg-black overflow-hidden">
-                  <img src="/placeholder.svg?height=600&width=800" alt="Our team at work" className="w-full h-auto" />
+                  <img src="/scriptverse.png" alt="Our team at work" className="w-full h-auto" />
                 </div>
               </div>
             </motion.div>
