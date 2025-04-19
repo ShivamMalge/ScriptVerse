@@ -49,7 +49,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary blur-lg opacity-75"></div>
                 <div className="relative bg-black overflow-hidden">
-                  <img src="/scriptverse.png" alt="Our team at work" className="w-full h-auto" />
+                  <img src="/placeholder.svg?height=600&width=800" alt="Our team at work" className="w-full h-auto" />
                 </div>
               </div>
             </motion.div>
@@ -63,19 +63,18 @@ export default function AboutPage() {
               <h3 className="text-3xl font-bold text-white mb-6 tracking-tighter">From Vision to Reality</h3>
               <div className="space-y-6 text-gray-300 font-mono text-sm">
                 <p>
-                Founded in the last quarter of 2024, ScriptVerse is a creative tech collective born from a shared vision: 
-                to push the boundaries of what&apos;s possible in digital experiences. What started as three passionate tech 
-                enthusiasts coding late nights in a tiny apartment has now grown into a cutting-edge studio.
+                  Founded in 2020, our creative tech collective emerged from a shared vision: to push the boundaries of
+                  what's possible in digital experiences. We started as four tech enthusiasts working from a tiny
+                  apartment, fueled by caffeine and ambition.
                 </p>
                 <p>
-                In a short span, we&apos;ve proudly served over 10 clients and completed 50+ personal, 
-                college, and club projects — each one a reflection of our obsession with clean code, 
-                futuristic design, and user-first innovation.
+                  Today, we've evolved into a cutting-edge studio specializing in web development, game-based UIs, and
+                  custom applicant tracking systems. Our mission remains the same: to craft digital experiences that
+                  feel like they've been sent back from the future.
                 </p>
                 <p>
-                We believe that technology should be both functional and mind-blowing — a fusion 
-                of logic and artistry. Every project we take on is an opportunity to challenge 
-                convention and create something the world hasn&apos;t seen before.
+                  We believe technology should be both functional and mind-blowing. Every project we undertake is an
+                  opportunity to redefine what's possible and create something that hasn't been seen before.
                 </p>
               </div>
             </motion.div>
@@ -156,39 +155,93 @@ export default function AboutPage() {
           </p>
         </motion.div>
 
-        <div className="relative max-w-4xl mx-auto">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-primary to-secondary"></div>
-
+        {/* Mobile Timeline View */}
+        <div className="md:hidden space-y-6">
           {[
             {
-              year: "2024",
+              year: "2020",
               title: "The Beginning",
               description:
-                "Three tech enthusiasts founded ScriptVerse in a small apartment with a vision to create cutting-edge digital experiences.",
+                "Four tech enthusiasts founded ScriptVerse in a small apartment with a vision to create cutting-edge digital experiences.",
             },
             {
-              year: "Jan of 2025",
+              year: "2021",
               title: "First Major Client",
               description:
                 "Landed our first enterprise client and delivered a revolutionary web application that exceeded expectations.",
             },
             {
-              year: " Feb 2025",
-              title: "Completed 10+ projects",
-              description: "We have Completed more than 10+ personal and club level projects which are the fine fusion of programming and artistry",
+              year: "2022",
+              title: "Team Expansion",
+              description: "Grew to a team of 12 specialists across development, design, and project management.",
             },
             {
-              year: "March 2025",
-              title: "College level recognition",
-              description: "Founding Members got Co-lead and Lead positions in Cyber Sec and AI clubs of thr College",
+              year: "2023",
+              title: "New Office",
+              description: "Moved into our current headquarters in the heart of the tech district.",
             },
             {
-              year: " April 2025",
+              year: "2024",
               title: "International Projects",
-              description: "We are now open to clients from Europe, Asia, and Australia.",
+              description: "Expanded our client base to include companies from Europe, Asia, and Australia.",
             },
             {
-              year: "2025 and Beyond",
+              year: "2025",
+              title: "The Future",
+              description: "Continuing to push boundaries and redefine what's possible in digital experiences.",
+            },
+          ].map((milestone, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              viewport={{ once: true }}
+              className="bg-black/50 border border-white/10 p-6 hover:border-primary/50 transition-all duration-300"
+            >
+              <span className="inline-block px-3 py-1 bg-gradient-to-r from-primary to-secondary text-black text-sm font-bold mb-2 font-mono">
+                {milestone.year}
+              </span>
+              <h3 className="text-xl font-bold text-white mb-2">{milestone.title}</h3>
+              <p className="text-gray-300 font-mono text-sm">{milestone.description}</p>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Desktop Timeline View */}
+        <div className="relative max-w-4xl mx-auto hidden md:block">
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-primary to-secondary"></div>
+
+          {[
+            {
+              year: "2020",
+              title: "The Beginning",
+              description:
+                "Four tech enthusiasts founded ScriptVerse in a small apartment with a vision to create cutting-edge digital experiences.",
+            },
+            {
+              year: "2021",
+              title: "First Major Client",
+              description:
+                "Landed our first enterprise client and delivered a revolutionary web application that exceeded expectations.",
+            },
+            {
+              year: "2022",
+              title: "Team Expansion",
+              description: "Grew to a team of 12 specialists across development, design, and project management.",
+            },
+            {
+              year: "2023",
+              title: "New Office",
+              description: "Moved into our current headquarters in the heart of the tech district.",
+            },
+            {
+              year: "2024",
+              title: "International Projects",
+              description: "Expanded our client base to include companies from Europe, Asia, and Australia.",
+            },
+            {
+              year: "2025",
               title: "The Future",
               description: "Continuing to push boundaries and redefine what's possible in digital experiences.",
             },
