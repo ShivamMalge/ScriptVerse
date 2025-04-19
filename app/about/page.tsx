@@ -160,34 +160,34 @@ export default function AboutPage() {
         <div className="md:hidden space-y-6">
           {[
             {
-              year: "2020",
+              year: "2024",
               title: "The Beginning",
               description:
-                "Four tech enthusiasts founded ScriptVerse in a small apartment with a vision to create cutting-edge digital experiences.",
+                "Three tech enthusiasts founded ScriptVerse in a small apartment with a vision to create cutting-edge digital experiences.",
             },
             {
-              year: "2021",
+              year: "Jan of 2025",
               title: "First Major Client",
               description:
                 "Landed our first enterprise client and delivered a revolutionary web application that exceeded expectations.",
             },
             {
-              year: "2022",
-              title: "Team Expansion",
-              description: "Grew to a team of 12 specialists across development, design, and project management.",
+              year: " Feb 2025",
+              title: "Completed 10+ projects",
+              description: "We have Completed more than 10+ personal and club level projects which are the fine fusion of programming and artistry",
             },
             {
-              year: "2023",
-              title: "New Office",
-              description: "Moved into our current headquarters in the heart of the tech district.",
+              year: "March 2025",
+              title: "College level recognition",
+              description: "Founding Members got Co-lead and Lead positions in Cyber Sec and AI clubs of thr College",
             },
             {
-              year: "2024",
+              year: " April 2025",
               title: "International Projects",
-              description: "Expanded our client base to include companies from Europe, Asia, and Australia.",
+              description: "We are now open to clients from Europe, Asia, and Australia.",
             },
             {
-              year: "2025",
+              year: "2025 and Beyond",
               title: "The Future",
               description: "Continuing to push boundaries and redefine what's possible in digital experiences.",
             },
@@ -215,34 +215,34 @@ export default function AboutPage() {
 
           {[
             {
-              year: "2020",
+              year: "2024",
               title: "The Beginning",
               description:
-                "Four tech enthusiasts founded ScriptVerse in a small apartment with a vision to create cutting-edge digital experiences.",
+                "Three tech enthusiasts founded ScriptVerse in a small apartment with a vision to create cutting-edge digital experiences.",
             },
             {
-              year: "2021",
+              year: "Jan of 2025",
               title: "First Major Client",
               description:
                 "Landed our first enterprise client and delivered a revolutionary web application that exceeded expectations.",
             },
             {
-              year: "2022",
-              title: "Team Expansion",
-              description: "Grew to a team of 12 specialists across development, design, and project management.",
+              year: " Feb 2025",
+              title: "Completed 10+ projects",
+              description: "We have Completed more than 10+ personal and club level projects which are the fine fusion of programming and artistry",
             },
             {
-              year: "2023",
-              title: "New Office",
-              description: "Moved into our current headquarters in the heart of the tech district.",
+              year: "March 2025",
+              title: "College level recognition",
+              description: "Founding Members got Co-lead and Lead positions in Cyber Sec and AI clubs of thr College",
             },
             {
-              year: "2024",
+              year: " April 2025",
               title: "International Projects",
-              description: "Expanded our client base to include companies from Europe, Asia, and Australia.",
+              description: "We are now open to clients from Europe, Asia, and Australia.",
             },
             {
-              year: "2025",
+              year: "2025 and Beyond",
               title: "The Future",
               description: "Continuing to push boundaries and redefine what's possible in digital experiences.",
             },
