@@ -63,18 +63,19 @@ export default function AboutPage() {
               <h3 className="text-3xl font-bold text-white mb-6 tracking-tighter">From Vision to Reality</h3>
               <div className="space-y-6 text-gray-300 font-mono text-sm">
                 <p>
-                  Founded in 2020, our creative tech collective emerged from a shared vision: to push the boundaries of
-                  what's possible in digital experiences. We started as four tech enthusiasts working from a tiny
-                  apartment, fueled by caffeine and ambition.
+                Founded in the last quarter of 2024, ScriptVerse is a creative tech collective born from a shared vision: 
+                to push the boundaries of what&apos;s possible in digital experiences. What started as three passionate tech 
+                enthusiasts coding late nights in a tiny apartment has now grown into a cutting-edge studio.
                 </p>
                 <p>
-                  Today, we've evolved into a cutting-edge studio specializing in web development, game-based UIs, and
-                  custom applicant tracking systems. Our mission remains the same: to craft digital experiences that
-                  feel like they've been sent back from the future.
+                In a short span, we&apos;ve proudly served over 10 clients and completed 50+ personal, 
+                college, and club projects — each one a reflection of our obsession with clean code, 
+                futuristic design, and user-first innovation.
                 </p>
                 <p>
-                  We believe technology should be both functional and mind-blowing. Every project we undertake is an
-                  opportunity to redefine what's possible and create something that hasn't been seen before.
+                We believe that technology should be both functional and mind-blowing — a fusion 
+                of logic and artistry. Every project we take on is an opportunity to challenge 
+                convention and create something the world hasn&apos;t seen before.
                 </p>
               </div>
             </motion.div>
